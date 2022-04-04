@@ -8,16 +8,15 @@ const story = [{
         id: 2,
         userName: 'Scarelet',
         vid: [
-            '../images/landscape4.mp4',
-
+            '../images/landscape4.mp4'
         ],
-        userImg: '../images/avatarka4.jpg',
+        userImg: '../images/avatarka4.webp',
     },
     {
         id: 3,
         userName: 'Helena',
         vid: ['../images/landscape5.mp4', ],
-        userImg: '../images/avatarka4.jpg',
+        userImg: '../images/avatarka4.webp',
     },
     {
         id: 5,

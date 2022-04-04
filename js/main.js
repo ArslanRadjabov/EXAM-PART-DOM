@@ -12,7 +12,7 @@ story.forEach((item) => {
                 <img src="${item.userImg}" alt="videos" />
               </div>
               <h4>${item.userName}</h4>
-              <p>21h</p>
+              
             </div>
             <div class="container_video" onclick="clickstory(${item.id})">
               <video src="${item.vid[0]}" class="elvid${item.id}"></video>
