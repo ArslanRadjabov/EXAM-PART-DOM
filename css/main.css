@@ -74,7 +74,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #1a1a1a;
+  background-color: #2b2a2a;
 }
 
 .hero__top-logo {
@@ -157,6 +157,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: #6767677b;
+  border-radius: 25px;
 }
 
 .moreimg h4 {
