@@ -1,0 +1,128 @@
+.content {}
+
+.slide__list {
+    position: relative;
+    margin: auto auto;
+    height: 100%;
+    width: 100%;
+}
+
+.slide__item {
+    list-style: none;
+    background-color: rgb(143, 136, 136);
+    margin: auto auto;
+    height: 85vh;
+    width: 330px;
+    padding: 0;
+    position: relative;
+}
+
+.slide__header {
+    z-index: 99;
+    transform: translate(30px, -30px);
+    position: absolute;
+    background-color: transparent;
+}
+
+.slide__footer {
+    transform: translate(50px, -50px);
+    position: absolute;
+    background-color: transparent;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.slide__lines {
+    transform: translateX(20px);
+    position: absolute;
+    background-color: transparent;
+}
+
+// .slide__media__vid {
+//     width: 330px;
+//     height: 100%;
+//     object-fit: cover;
+// }
+.slide__avatar {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+.slide__lines {
+    justify-content: center;
+    align-items: center;
+}
+
+.slide__header {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.slide__btns {
+    margin-left: 10px;
+}
+
+.btn__social {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    i {
+        color: #fff;
+        font-size: 25px;
+    }
+}
+
+.avatar__text {
+    text-decoration: none;
+    color: #fff;
+}
+
+.avatar__days {
+    color: rgb(158, 156, 156);
+}
+
+.slide__media {}
+
+.slide__input {
+    &::placeholder {
+        color: rgb(238, 238, 238) !important;
+    }
+    width: 85%;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    &:focus {
+        outline: none;
+    }
+}
+
+.messageIcon {}
+
+.right__btn {
+    top: 50%;
+    right: -50px;
+    border: none;
+    border-radius: 50%;
+}
+
+.left__btn {
+    top: 50%;
+    left: -50px;
+    border: none;
+    border-radius: 50%;
+}
+
+.sliderBtn {
+    position: absolute;
+    padding: 5px;
+    background-color: rgb(197, 190, 190);
+    font-size: 15px;
+}
