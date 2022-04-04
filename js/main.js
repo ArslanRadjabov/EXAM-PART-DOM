@@ -111,21 +111,3 @@ function interval() {
     }
 }
 interval();
-
-// let pageCount = 10;
-// let hozirgisi = 8;
-
-// currentPage = hozirgisi;
-
-// let start_page = currentPage - 2 <= 0 ? 1 : currentPage - 2;
-
-// if (currentPage + 2 > pageCount) {
-//   start_page -= currentPage + 2 - pageCount;
-// }
-
-// for (let index = start_page; index <= pageCount; index++) {
-//   if (index == start_page + 5) {
-//     break;
-//   }
-//   console.log(index);
-// }

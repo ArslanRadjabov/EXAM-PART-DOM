@@ -175,7 +175,6 @@
     }
 }
 
-// when story clicked
 .clickedstory {
     transform: scale(2);
     transition: all 0.5s;
@@ -191,5 +190,6 @@
 }
 
 .input__comment {
-    font-size: 15px;
+    padding: 5px;
+    font-size: 10px;
 }
