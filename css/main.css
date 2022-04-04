@@ -349,4 +349,8 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
+
+.input__comment {
+  font-size: 15px;
+}
 /*# sourceMappingURL=main.css.map */

@@ -37,7 +37,7 @@ story.forEach((item) => {
             </div>
             <div class="story-bottom">
               <form action="">
-                <input type="text" placeholder="add comment" />
+                <input class="input__comment" type="text" placeholder="add comment" />
                 </form>
                 <span><i class="bx bxl-telegram"></i></span>
             </div>
