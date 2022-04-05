@@ -147,11 +147,6 @@ img {
   top: 0px;
 }
 
-.story::after {
-  content: '';
-  background-image: url("");
-}
-
 .moreimg {
   display: -webkit-box;
   display: -ms-flexbox;
