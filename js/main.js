@@ -15,7 +15,10 @@ story.forEach((item) => {
               
             </div>
             <div class="container_video" onclick="clickstory(${item.id})">
-              <video src="${item.vid[0]}" class="elvid${item.id}"></video>
+            <div class="video__main">
+            <video src="${item.vid[0]}" class="elvid${item.id} height=""></video>
+            </div>
+             
             </div>
 
             <div class="under_video under${item.id}">
@@ -25,9 +28,11 @@ story.forEach((item) => {
               </div>
               </div>
               <div class="story-top-userimg">
-                <div class="userImgtop">
-                <img src="${item.userImg}" alt="" />
+                <div class="userImgtop d-flex">
+                <img src="${item.userImg}" alt=""/>
                 </div>
+                <p class="title__youtube">${item.title}</p>
+                <p class="days__publish">16 нед</p>
                 <div class="story-control">
                   <span><i class="bx bx-play"></i></span>
                   <span><i class="bx bxs-volume-mute"></i></span>
@@ -36,7 +41,7 @@ story.forEach((item) => {
               </div>
             </div>
             <div class="story-bottom">
-              <form action="">
+              <form>
                 <input class="input__comment" type="text" placeholder="add comment" />
                 </form>
                 <span><i class="bx bxl-telegram"></i></span>
@@ -76,7 +81,7 @@ function clickstory(id) {
     clickedel.classList.add('clickedstory');
     i++;
 
-    //   move
+
     if (id == 1) {
         content.style.marginLeft = '470px';
     } else if (id == 2) {
@@ -85,18 +90,8 @@ function clickstory(id) {
         content.style.marginLeft = '0px';
     } else if (id == 5) {
         content.style.marginLeft = '-235px';
-    } else if (id == 6) {
-        content.style.marginLeft = '-470px';
-    } else if (id == 7) {
-        content.style.marginLeft = '-705px';
-    } else if (id == 8) {
-        content.style.marginLeft = '-940px';
-    } else if (id == 9) {
-        content.style.marginLeft = '-1175px';
-    } else if (id == 9) {
-        content.style.marginLeft = '-1410px';
     } else {
-        content.style.marginLeft = '-1410px';
+        content.style.marginLeft = '-250px';
     }
 }
 setInterval(interval, 15000);

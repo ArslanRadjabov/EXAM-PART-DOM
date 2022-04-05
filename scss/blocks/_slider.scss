@@ -21,13 +21,18 @@
     }
 }
 
+.bx-x {
+    cursor: pointer;
+    font-size: 50px;
+}
+
 .container-story {
     width: 1200px;
     height: 95vh;
     display: flex;
     align-items: center;
     justify-content: left;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .content {
@@ -38,9 +43,9 @@
 }
 
 .story {
-    border-radius: 10px;
+    border-radius: 5px;
     width: 167px;
-    height: 267px;
+    height: 100%;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -60,12 +65,6 @@
     border-radius: 25px;
     h4 {
         color: white;
-        padding: 0;
-        margin: 0;
-    }
-    p {
-        color: white;
-        font-size: 18px;
         padding: 0;
         margin: 0;
     }
@@ -106,13 +105,20 @@
     display: none;
 }
 
+.video__main {
+    height: 45vh;
+    video {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
 .story-top {
     width: 90%;
-    height: 40%;
     display: flex;
     align-items: top;
     justify-content: center;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .story-top-userimg {
@@ -145,34 +151,46 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1a1a1a16;
-    width: 80%;
+    width: 90%;
     form {
         width: 100%;
-        border: 1px solid #dbdbdb;
-        border-radius: 10px;
         display: flex;
-        font-size: 14px;
         align-items: center;
         justify-content: space-between;
-        padding: 2px 1px;
+        margin-bottom: 10px;
         input {
+            padding: 0;
+            padding: 5px 9px;
             outline: none;
             background: transparent;
-            width: 70%;
-            font-size: 10px;
-            border: none;
-            color: #dbdbdb;
+            border-radius: 10px;
+            width: 100%;
+            font-weight: 300;
+            font-size: 7px;
+            border: 1px solid #fff;
+            color: #fff;
             &::placeholder {
-                color: #dbdbdb;
-                font-size: 10px;
+                color: #fff;
+                font-size: 7px;
             }
         }
     }
     span {
-        font-size: 14px;
-        color: #dbdbdb;
+        margin-left: 5px;
+        transform: translateY(-2px);
+        font-size: 15px;
+        color: #fff;
     }
+}
+
+.title__youtube {
+    color: #fff;
+    font-size: 7px;
+}
+
+.days__publish {
+    color: rgb(231, 230, 230);
+    font-size: 8px;
 }
 
 .clickedstory {
@@ -190,6 +208,6 @@
 }
 
 .input__comment {
-    padding: 5px;
-    font-size: 10px;
+    padding: 2px 2px;
+    font-size: 8px;
 }
