@@ -23,6 +23,20 @@ story.forEach((item) => {
             </div>
 
             <div class="under_video under${item.id}">
+            <div class="progress__bar">
+
+                <div class="progress">
+                    <span class="progress__item"></span>
+                </div>
+
+                <div class="progress">
+                    <span class="progress__item progress_2"></span>
+                </div>
+
+                <div class="progress ">
+                    <span class="progress__item progress_3"></span>
+                </div>
+            </div>
             <div class="story-top">
               <div class="videotime-top-story">
               <div class="video_count">

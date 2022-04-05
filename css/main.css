@@ -179,6 +179,79 @@ img {
   margin: 0;
 }
 
+.progress__bar {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 2px;
+}
+
+.progress {
+  background-color: #b4b4b4;
+  width: 45px;
+  height: 2px;
+  position: relative;
+  border-radius: 25px;
+}
+
+.progress .progress__item {
+  border-radius: 25px;
+  position: absolute;
+  -webkit-animation-fill-mode: row;
+          animation-fill-mode: row;
+  height: 2px;
+  background-color: #fff;
+  width: 0%;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+  -webkit-animation: line 5s forwards;
+          animation: line 5s forwards;
+}
+
+.progress .progress_2 {
+  -webkit-animation: line 5s forwards;
+          animation: line 5s forwards;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.progress .progress_3 {
+  -webkit-animation: line 5s forwards;
+          animation: line 5s forwards;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+@-webkit-keyframes line {
+  0% {
+    width: 1%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes line {
+  0% {
+    width: 1%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 .userstoryimg {
   width: 50px;
   height: 50px;
