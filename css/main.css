@@ -77,8 +77,10 @@ img {
   background-color: #2b2a2a;
 }
 
-.hero__top-logo {
+.hero__top {
+  position: absolute;
   width: 100%;
+  top: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -93,7 +95,7 @@ img {
   padding: 5px;
 }
 
-.hero__top-logo span {
+.hero__top span {
   color: white;
   font-size: 40px;
 }
@@ -142,6 +144,12 @@ img {
   margin: 35px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  top: 0px;
+}
+
+.story::after {
+  content: '';
+  background-image: url("");
 }
 
 .moreimg {

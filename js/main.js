@@ -17,6 +17,7 @@ story.forEach((item) => {
             <div class="container_video" onclick="clickstory(${item.id})">
             <div class="video__main">
             <video src="${item.vid[0]}" class="elvid${item.id} height=""></video>
+            
             </div>
              
             </div>
@@ -91,7 +92,7 @@ function clickstory(id) {
     } else if (id == 5) {
         content.style.marginLeft = '-235px';
     } else {
-        content.style.marginLeft = '-250px';
+        content.style.marginLeft = '-500px';
     }
 }
 setInterval(interval, 15000);

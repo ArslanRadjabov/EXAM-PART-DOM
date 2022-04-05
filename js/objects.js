@@ -32,7 +32,7 @@ const story = [{
         id: 6,
         title: 'Fashion',
         userName: 'Helloween',
-        vid: ['../images/landscape4.mp4'],
+        vid: ['../images/landscape3.mp4'],
         userImg: '../images/avatarka2.jpg',
     }
 ];
